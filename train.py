@@ -115,7 +115,7 @@ def train_teacher(args):
                 d_fake = discriminator(hash)
                 generator_loss = loss_l2(d_fake, Variable(torch.ones(d_fake.shape[0], 1)).cuda())
                 sign_loss = loss_l2(hash, B)
-                construct_loss = loss_l2(hash_norm.mm(hash_norm.t()), args.k * aff_label)
+                construct_loss = loss_l2(hash_norm.mm(hash_norm.t()), aff_label)
                 loss_G = generator_loss * args.g_param + sign_loss * args.b_param + construct_loss * args.s_param
 
                 loss_G.backward()
