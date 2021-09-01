@@ -16,6 +16,6 @@ You can easily train our model on MS COCO dataset with the following code:
 (3) Finally, change the corresponding parameters and train the model.
 
 #### 3. Download our MS COCO dataset
-
-    BaiduYun Link:
-        None
+        
+    Google Drive Link:
+        https://drive.google.com/drive/folders/1-Ru-NOaIukbJj_wL1rUh7jThOTGwPmKM?usp=sharing
