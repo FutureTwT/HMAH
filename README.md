@@ -25,7 +25,7 @@ You can easily train our model on MS COCO dataset with the following code:
 
 #### 3. Experimental results on MS COCO
 
-You can easily reimplement the experimental results using the above code. The MS COCO dataset link in Section.4.
+You can easily reimplement the experimental results using the above code. The MS COCO dataset link in Section.4. If the results you reimplement differ from the below results, it may be due to machine differences.
     
     [16 bits]
         mAP@500 on I2T: 0.691
