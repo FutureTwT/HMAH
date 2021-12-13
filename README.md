@@ -51,6 +51,12 @@ You can easily reimplement the experimental results using the above code. The MS
         
     Google Drive Link:
         https://drive.google.com/drive/folders/1-Ru-NOaIukbJj_wL1rUh7jThOTGwPmKM?usp=sharing
+        
+
+If you want to run our code compared with all the cross-modal hashing retrieval baselines on three datasets, we suggest that you should refer the follow link. In this repository, all the datasets are provided and all the baselines can be run easily. You only need change the data path dict "paths_#" and the loaded data key of funtion "load_#()" in "utils/datasets.py".
+
+    https://github.com/BMC-SDNU/Cross-Modal-Hashing-Retrieval
+  
   
 
 #### 5. Citation      
