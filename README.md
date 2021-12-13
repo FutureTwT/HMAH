@@ -10,7 +10,7 @@ Our training environment(only as reference):
 
 #### 1. Basic demo
 
-You can easily train our model on MS COCO dataset with the following code:
+You can easily train the model of our method with the following code:
 
     chmod a+x ./train.sh
     ./train.sh
@@ -25,7 +25,7 @@ You can easily train our model on MS COCO dataset with the following code:
 
 #### 3. Experimental results on MS COCO
 
-You can easily reimplement the experimental results using the above code. The MS COCO dataset link in Section.4. If the results you reimplement differ from the below results, it may be due to machine differences.
+You can easily reimplement the experimental results using the above code. The dataset link is provided in Section.4. If the results you reimplement differ from the below results, it may be due to machine differences. The performances on MS COCO are shown as follow, and the other results can refer our paper.
     
     [16 bits]
         mAP@500 on I2T: 0.691
@@ -47,7 +47,7 @@ You can easily reimplement the experimental results using the above code. The MS
         mAP@500 on I2T: 0.808
         mAP@500 on T2I: 0.947
     
-#### 4. Download our MS COCO dataset
+#### 4. Download the dataset and refer the baselines
         
     Google Drive Link:
         https://drive.google.com/drive/folders/1-Ru-NOaIukbJj_wL1rUh7jThOTGwPmKM?usp=sharing
