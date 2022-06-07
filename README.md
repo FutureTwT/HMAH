@@ -61,4 +61,11 @@ If you want to run our code compared with all the cross-modal hashing retrieval 
 
 #### 5. Citation      
 
-    To be determined.
+    @ARTICLE{HMAH,  
+        author={Tan, Wentao and Zhu, Lei and Li, Jingjing and Zhang, Huaxiang and Han, Junwei},  
+        journal={IEEE Transactions on Multimedia},   
+        title={Teacher-Student Learning: Efficient Hierarchical Message Aggregation Hashing for Cross-Modal Retrieval},   
+        year={2022},  
+        pages={1-1},  
+        doi={10.1109/TMM.2022.3177901}
+    }
